@@ -23,7 +23,7 @@ function Home() {
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div>
-                  Ciao
+                  Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali. 
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ function Home() {
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <div>dd</div>
+                <div>L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.</div>
               </div>
             </div>
           </div>

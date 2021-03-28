@@ -9,6 +9,8 @@ import Projects from './components/Projects';
 import Restruturactions from './components/Restructurations';
 import Recent from './components/Recent';
 import Historical from './components/Historical';
+import Chiesa from './components/Chiesa';
+import BifamiliareCaselleProj from './components/BifamiliareCaselleProj';
 import Error from './components/Error';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
@@ -24,11 +26,12 @@ function App() {
           <Route exact path="/contatti" component={Contact} />
           <Route exact path="/realizzazioni" component={Productions} />
           <Route exact path="/realizzazioni/ristrutturazioni" component={Restruturactions} />
+          <Route exact path="/realizzazioni/ristrutturazioni/chiesa" component={Chiesa} />          
           <Route exact path="/realizzazioni/recenti" component={Recent} />
           <Route exact path="/realizzazioni/storiche" component={Historical} />
           <Route exact path="/proposte_edili" component={Projects} />
+          <Route exact path="/proposte_edili/bifamiliare_caselle" component={BifamiliareCaselleProj} />
           <Route path="*" component={Error} />
-  
         </Switch>
         <Footer />
       </div>

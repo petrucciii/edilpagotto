@@ -24,8 +24,8 @@ function Nav() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="li_hidden">
                   <li><a class="dropdown-item" id="li_hidden_1" href="/realizzazioni/ristrutturazioni">Ristrutturazioni</a></li>
-                  <li><a class="dropdown-item" id="li_hidden_2" href="/realizzazioni/recenti">Storiche</a></li>
-                  <li><a class="dropdown-item" id="li_hidden_3" href="/realizzazioni/storiche">Recenti</a></li>
+                  <li><a class="dropdown-item" id="li_hidden_2" href="/realizzazioni/storiche">Storiche</a></li>
+                  <li><a class="dropdown-item" id="li_hidden_3" href="/realizzazioni/recenti">Recenti</a></li>
                 </ul>
               </li>
               <li class="nav-item">
