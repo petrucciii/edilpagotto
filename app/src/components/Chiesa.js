@@ -18,9 +18,9 @@ function Chiesa() {
             <div class="slide">Ristrutturazione della Chiesa di Caselle svolta nel 2016.</div>
             <div class="slide">Questa ristrutturazione ha impiegato circa 1 anno ed abbiamo ...</div>
             <div id="carousel"> 
-                <div class="slide"><img class="house_img" src={Chiesa3} width="350px" height="250px" /></div>
-                <div class="slide"><img class="house_img" src={Chiesa2} width="350px" height="250px" /></div>
-                <div class="slide"><img class="house_img" src={Chiesa1} width="350px" height="250px" /></div>
+                <div class="slide"><img alt="Chiesa" class="house_img" src={Chiesa3} width="350px" height="250px" /></div>
+                <div class="slide"><img alt="Chiesa" class="house_img" src={Chiesa2} width="350px" height="250px" /></div>
+                <div class="slide"><img alt="Chiesa" class="house_img" src={Chiesa1} width="350px" height="250px" /></div>
             </div>
         </div>
        </div>

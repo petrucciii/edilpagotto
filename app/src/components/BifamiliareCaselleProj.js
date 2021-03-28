@@ -17,9 +17,9 @@ function BifamiliareCaselleProj() {
             <div class="slide">Progetto di una bifamiiare a Caselle di S.M. di Sala.</div>
             <div class="slide">La casa dovrebbe essere conclusa entro il ***</div>
             <div id="carousel"> 
-                <div class="slide"><img class="house_img" src={Casa3} width="350px" height="250px" /></div>
-                <div class="slide"><img class="house_img" src={Casa2} width="350px" height="250px" /></div>
-                <div class="slide"><img class="house_img" src={Casa1} width="350px" height="250px" /></div>
+                <div class="slide"><img alt="Bifamiliare" class="house_img" src={Casa3} width="350px" height="250px" /></div>
+                <div class="slide"><img alt="Bifamiliare" class="house_img" src={Casa2} width="350px" height="250px" /></div>
+                <div class="slide"><img alt="Bifamiliare" class="house_img" src={Casa1} width="350px" height="250px" /></div>
             </div>
         </div>
        </div>
