@@ -9,8 +9,8 @@ function Error() {
         <title>EDILPAGOTTO - Errore 404</title>
       </Helmet>
       <div id="notfound">
-        <div class="notfound">
-            <div class="error404">
+        <div className="notfound">
+            <div className="error404">
                 <h1>
                     <span>4</span>
                     <span>0</span>
@@ -18,7 +18,7 @@ function Error() {
                 </h1>
             </div>
             <h2>Pagina non tovata</h2>
-            <center><a class="but_home" href="/home">Torna alla Home</a></center>
+            <center><a className="but_home" href="/home">Torna alla Home</a></center>
         </div>
       </div>
     </div>

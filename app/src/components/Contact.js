@@ -13,12 +13,12 @@ function Contact() {
       </div>
       <div> 
         <h3>DOVE PUOI CONTATTARCI 
-          <div class="contact">Tel: 349 4158040, 041 5730308</div>
-          <div class="contact">E-mail: edilpagotto@virgilio.it</div>
+          <div className="contact">Tel: 349 4158040, 041 5730308</div>
+          <div className="contact">E-mail: edilpagotto@virgilio.it</div>
         </h3>
         <h3>DOVE SIAMO 
-          <div class="contact"> Via Zinalbo 59</div>
-          <div class="contact">30036 Santa Maria di Sala - VE</div>
+          <div className="contact"> Via Zinalbo 59</div>
+          <div className="contact">30036 Santa Maria di Sala - VE</div>
         </h3>
       </div>
     </div>

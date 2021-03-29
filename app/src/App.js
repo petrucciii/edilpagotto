@@ -19,6 +19,9 @@ function App() {
   return (
     <BrowserRouter>
       <div>
+        <Helmet>
+          <title>EDILPAGOTTO</title>
+        </Helmet>
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
