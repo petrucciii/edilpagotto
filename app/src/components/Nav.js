@@ -16,14 +16,14 @@ function Nav() {
                 <a className="nav-link" aria-current="page" href="/home" >Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#chi_siamo">Chi Siamo</a>
+                <a className="nav-link" href="/home#chi_siamo">Chi Siamo</a>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="/realizzazioni" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Realizzazioni
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="li_hidden">
-                  <li><a className="dropdown-item" id="li_hidden_1" href="/#">Ristrutturazioni</a></li>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown" id="li_hidden">
+                  <li><a className="dropdown-item" id="li_hidden_1" href="/realizzazioni/ristrutturazioni">Ristrutturazioni</a></li>
                   <li><a className="dropdown-item" id="li_hidden_2" href="/realizzazioni/storiche">Storiche</a></li>
                   <li><a className="dropdown-item" id="li_hidden_3" href="/realizzazioni/recenti">Recenti</a></li>
                 </ul>
@@ -38,15 +38,15 @@ function Nav() {
           </div>
         </div>
       </nav>
-      <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+      <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin="true"></script>
 
       <script
         src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-        crossorigin></script>
+        crossOrigin="true"></script>
 
       <script
         src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-        crossorigin></script>
+        crossOrigin="true"></script>
 
       <script>var Alert = ReactBootstrap.Alert;</script>
 

@@ -11,7 +11,7 @@ function Productions() {
         <title>EDILPAGOTTO - Realizzazioni</title>
       </Helmet>
       <div className="row row-cols-1 row-cols-md-3 g-4" style={{margin: 20}}>
-        <Link to="/realizzazioni/ristrutturazioni/chiesa"><div class="col">
+        <Link to="/realizzazioni/ristrutturazioni/chiesa"><div className="col">
           <div className="card h-100">
             <img src={Chiesa3} className="card-img-top" alt="..." />
             <div className="card-body">

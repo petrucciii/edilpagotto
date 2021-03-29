@@ -10,7 +10,7 @@ function Projects() {
       <Helmet>
         <title>EDILPAGOTTO - Proposte Edili</title>
       </Helmet>
-      <div class="row row-cols-1 row-cols-md-3 g-4" style={{margin: 20}}>
+      <div className="row row-cols-1 row-cols-md-3 g-4" style={{margin: 20}}>
         <Link to="/proposte_edili/bifamiliare_caselle">
           <div className="col">
             <div className="card h-100">

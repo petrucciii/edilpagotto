@@ -22,8 +22,8 @@ function Restruturactions() {
         <div className="col">
           <div className="card h-100">
             <img src={Chiesa3} className="card-img-top" alt="Casa 2" />
-            <div class="card-body">
-              <h5 class="card-title">Casa 2</h5>
+            <div className="card-body">
+              <h5 className="card-title">Casa 2</h5>
             </div>
           </div>
         </div>
