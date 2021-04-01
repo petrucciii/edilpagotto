@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 body{
   margin: 0;
@@ -9,6 +10,12 @@ body{
   margin: 0;
 }
 
+.footer{
+  text-align: center;
+  background-color: #404040;
+  padding: 10px;
+}
+
 .copyright{
   color: gray;
 }
@@ -18,7 +25,7 @@ body{
 }
 
 #credits a{
-  color: black;
+  color: white;
 }
 
 .contact{
@@ -44,7 +51,7 @@ body{
   color: #404040;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
   .labelbar h3{
       margin-right: 50px;
       margin-left: 50px;
@@ -163,4 +170,54 @@ body{
 
 .slide{
   display: inline-block;
+}
+
+.who_title{
+  margin-left: 5%;
+}
+
+.who_content{
+  margin-left: 18%;
+  margin-right: 7%;
+}
+
+#img_homewho{
+  margin-left: 5%;
+  margin-top: -20%;
+  width: 100px;
+  height: 120px;
+}
+
+.img_homewho_desc{
+  margin-left: 4%;
+  margin-top: -6%;
+  color: gray;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.history_title{
+  margin-top: 3%;
+  margin-left: 7%;
+
+}
+
+.history_content{
+  margin-left: 15%;
+  margin-right: 7%;
+  margin-bottom: 3%;
+}
+
+#img_homehistory{
+  margin-left: 7%;
+  margin-top: -16%;
+  width: 100px;
+  height: 120px;
+}
+
+.img_homehistory_desc{
+  margin-left: 7%;
+  margin-top: -4%;
+  color: gray;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 10px;
 }

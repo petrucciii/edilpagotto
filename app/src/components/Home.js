@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import {Helmet} from 'react-helmet';
+import imgHomechisiamo from '../images/home/img_who_1.jpg';
+import imgHomestoria from '../images/home/img_who_2.jpg';
 
 function Home() {
   return (
@@ -8,40 +10,38 @@ function Home() {
       <Helmet>
         <title>EDILPAGOTTO - Home</title>
       </Helmet>
-      <div class="labelbar">
+      <div className="labelbar">
         <h3>DA PI&Ugrave; DI 60 ANNI COSTRUIAMO E RISTRUTTURIAMO EDIFICI ABITATIVI E STORICI!</h3>
       </div>
   
       <div id="chi_siamo">
-        <div className="accordion" id="accordionExample">
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingOne">
-              <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Chi Siamo
-              </button>
-            </h2>
-            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div className="accordion-body">
-                <div>
-                  Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali. 
-                </div>
-              </div>
-            </div>
+        <div className="who">
+          <h3 className="who_title">CHI SIAMO</h3>
+          <div className="who_content">
+            Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali.
+            Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali.
+            Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali.
+            Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali.
+            Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali.
+            Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali.
+            Siamo un azienda edile fondata da nostro padre Carlo Pagotto, portata avanti da noi, due dei suoi figli: Sandro e Gianpietro Pagotto. Costruiamo edifici residenziali e non residenziali.
           </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingTwo">
-              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Storia
-              </button>
-            </h2>
-            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div className="accordion-body">
-                <div>L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.</div>
-              </div>
-            </div>
-          </div>
+          <img id="img_homewho" src={imgHomechisiamo} alt="Sandro e Gianpietro Pagotto"/>
+          <div className="img_homewho_desc">Sandro e Gianpietro Pagotto</div>
         </div>
+        <h4 className="history_title">STORIA</h4>
+        <div className="history_content">
+          L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.
+          L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.
+          L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.
+          L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.
+          L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.
+          L'azienda &egrave; nata nel 1960 e nostro padre ha cominciato a costruire edifici nella zona di S.M. di Sala.
+        </div>
+        <img id="img_homehistory" src={imgHomestoria} alt="Carlo Paolo Pagotto"/>
+        <div className="img_homehistory_desc">Carlo Paolo Pagotto</div>
       </div>
+
     </div>
   );
 }
