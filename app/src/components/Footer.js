@@ -8,7 +8,7 @@ function Footer() {
       <hr/>
       <footer className="footer">
         <div className="copyright">&copy; Copyright 2021. Tutti i diritti riservati.</div>
-        <div id="credits">Powered by <a href="https://github.com/petrucciii"> Riccardo Petrucci</a></div>
+        <div id="credits">Powered by <a href="https://riccardo-petrucci.web.app"> Riccardo Petrucci</a></div>
       </footer>
     </div>
   );
