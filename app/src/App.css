@@ -12,7 +12,7 @@ body{
 
 .footer{
   text-align: center;
-  background-color: #404040;
+  background-color: white;
   padding: 10px;
 }
 
@@ -25,7 +25,11 @@ body{
 }
 
 #credits a{
-  color: white;
+  color: black;
+}
+
+#credits a:hover{
+  color: tomato;
 }
 
 .contact{
@@ -208,16 +212,23 @@ body{
 }
 
 #img_homehistory{
-  margin-left: 7%;
+  margin-left: 5%;
   margin-top: -16%;
   width: 100px;
   height: 120px;
 }
 
 .img_homehistory_desc{
-  margin-left: 7%;
+  margin-left: 5%;
   margin-top: -4%;
   color: gray;
   font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1000px){
+  .img_homehistory_desc, .img_homewho_desc, #img_homehistory, #img_homewho{
+    visibility: hidden;
+  }
+}
+
