@@ -14,18 +14,18 @@ class Nav extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#home">Home</a>
+                  <a className="nav-link" href="#home">Home</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#chisiamo">Chi Siamo</a>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link" href="#realizzazioni" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a className="nav-link" href="#realizzazioni">
                     Realizzazioni
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" to="#proposte_edili" tabIndex="-1" aria-disabled="true">Proposte Edili</a>
+                  <a className="nav-link" href="#proposte_edili">Proposte Edili</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#contatti" tabIndex="-1" aria-disabled="true">Contatti</a>

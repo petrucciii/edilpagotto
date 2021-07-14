@@ -113,3 +113,9 @@ input[type="submit"] {
 input[type="submit"]:focus {
   background-color: #d3d3d3;
 }
+  
+.cardHome {
+  border: 1px solid gray;
+  margin-left: 40%;
+  width: 10.7rem;
+}
