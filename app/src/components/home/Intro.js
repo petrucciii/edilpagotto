@@ -6,7 +6,7 @@ export default class Intro extends Component {
     render() {
         return (
             <div>
-                <div className="intro">
+                <div className="intro" id="home">
                     <br/><br/><br/><br/><br/>
                     <div className="intro-content"></div>
                     <p className="display-6 intro-title" style={{fontSize: "30px"}}>EDILPAGOTTO</p>

@@ -3,8 +3,6 @@ import '../../css/App.css';
 import '../../css/Mobile.css';
 
 export default class Contact extends Component {
-    
-
     render() {
         return (
             <div id="contatti">
@@ -22,23 +20,6 @@ export default class Contact extends Component {
                     allowFullScreen="" 
                     loading="lazy">                        
                 </iframe>
-                <p className="lead" style={{marginLeft: "50px"}}>PER MAGGIORI DETTAGLI INVIACI UN E-MAIL</p>
-                <form className="form lead" style={{width: "80%", marginLeft: "50px"}}>
-                    <div class="mb-3">
-                        <input type="text" name="name" className="form-control" placeholder="Name" required/>
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" name="email" className="form-control" placeholder="E-mail"  required/>
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" name="subject" className="form-control" placeholder="Subject" su required/>
-                    </div>
-                    <div class="mb-3">
-                        <textarea className="form-control" name="message"  rows="3" placeholder="Message" required> </textarea>
-                    </div>
-
-                    <input type="submit" name="send_mail" value="Invia"/>
-                </form>
             </div>
         );
     }
