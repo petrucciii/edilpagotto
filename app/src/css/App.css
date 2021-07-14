@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+} 
+
+#navbar {
+  padding: 25px;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 80vh;
+  background: #f6f6f6;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound .error404 {
+  position: relative;
+  height: 160px;
+}
+
+.notfound .error404 h1 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 165px;
+  font-weight: 700;
+  margin: 0px;
+  color: rgb(46, 0, 46);
+  text-transform: uppercase;
+}
+
+.notfound .error404 h1>span {
+  color: rgb(46, 0, 46);
+}
+
+.notfound h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.intro {
+  background-image: url(../images/home/index_house.png);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.intro-title {
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: rgba(126, 192, 192, 0.288);
+}
+
+.intro-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-title {
+  margin-left: 30px;
+}
+
+.about-content {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#map {
+  margin-left: 55px;
+}
+
+#footer {
+  margin-left: 10px;
+}
+
+.form{
+  width: 80%;
+}
+
+input[type="submit"] {
+  background-color: white;
+  border: 1px gray solid;
+  outline: 0;
+}
+
+input[type="submit"]:focus {
+  background-color: #d3d3d3;
+}

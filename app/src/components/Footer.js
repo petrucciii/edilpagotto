@@ -1,17 +1,14 @@
-import React from 'react';
-import '../App.css';
+import React, { Component } from 'react';
 
-function Footer() {
-  return (
-    <div>
-      <br/>
-      <hr/>
-      <footer className="footer">
-        <div className="copyright">&copy; Copyright 2021. Tutti i diritti riservati.</div>
-        <div id="credits">Powered by <a href="https://riccardo-petrucci.web.app"> Riccardo Petrucci</a></div>
-      </footer>
-    </div>
-  );
+export default class Footer extends Component {
+    render() {
+        return (
+            <div id="footer">
+                <br/>
+                <hr/>
+                <p className="lead" style={{marginBottom: "-3px"}}>&copy; Copyright 2021. EDILPAGOTTO. Tutti i Diritti RIservati.</p>
+                <p className="lead">Powered by Riccardo Petrucci.</p>
+            </div>
+        )
+    }
 }
-
-export default Footer;

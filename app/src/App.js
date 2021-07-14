@@ -1,45 +1,23 @@
-import React from 'react';
-import './App.css';
-import Home from './components/Home';
-import Contact from './components/Contact';
+import React, { Component } from 'react';
 import Nav from './components/Nav';
+import Intro from './components/home/Intro';
+import About from './components/home/About';
+import Contact from './components/home/Contact';
 import Footer from './components/Footer';
-import Productions from './components/Productions';
-import Projects from './components/Projects';
-import Restruturactions from './components/Restructurations';
-import Recent from './components/Recent';
-import Historical from './components/Historical';
-import Chiesa from './components/Chiesa';
-import BifamiliareCaselleProj from './components/BifamiliareCaselleProj';
-import Error from './components/Error';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import {Helmet} from 'react-helmet';
+import './css/App.css';
 
-function App() {
-  return (
-    <BrowserRouter>
+class App extends Component {
+  render() {
+    return (
       <div>
-        <Helmet>
-          <title>EDILPAGOTTO</title>
-        </Helmet>
-        <Nav />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/contatti" component={Contact} />
-          <Route exact path="/realizzazioni" component={Productions} />
-          <Route exact path="/realizzazioni/ristrutturazioni" component={Restruturactions} />
-          <Route exact path="/realizzazioni/ristrutturazioni/chiesa" component={Chiesa} />          
-          <Route exact path="/realizzazioni/recenti" component={Recent} />
-          <Route exact path="/realizzazioni/storiche" component={Historical} />
-          <Route exact path="/proposte_edili" component={Projects} />
-          <Route exact path="/proposte_edili/bifamiliare_caselle" component={BifamiliareCaselleProj} />
-          <Route path="*" component={Error} />
-        </Switch>
-        <Footer />
+        <Nav/>
+        <Intro/>
+        <About/>
+        <Contact/>
+        <Footer/>
       </div>
-    </BrowserRouter>
-  );
+    );
+  }
 }
 
 export default App;

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../css/App.css';
 import {Helmet} from 'react-helmet';
 
 function Error() {
